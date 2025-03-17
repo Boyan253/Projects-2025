@@ -63,7 +63,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            I'm a passionate Full Stack Developer with 5 years of experience building web applications.
+            I&apos;m a passionate Full Stack Developer with 5 years of experience building web applications.
             I specialize in creating beautiful, performant, and user-friendly applications using modern technologies.
             My approach combines technical expertise with creative problem-solving to deliver exceptional results.
           </motion.p>

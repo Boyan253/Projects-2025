@@ -19,8 +19,8 @@ export default function Home() {
       setShowRocket(false);
     };
 
-    window.addEventListener('rocketLaunch', handleRocketLaunch);
-    return () => window.removeEventListener('rocketLaunch', handleRocketLaunch);
+    window.addEventListener("rocketLaunch", handleRocketLaunch);
+    return () => window.removeEventListener("rocketLaunch", handleRocketLaunch);
   }, []);
 
   return (

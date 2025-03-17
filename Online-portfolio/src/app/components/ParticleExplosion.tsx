@@ -36,8 +36,8 @@ export default function ParticleExplosion() {
       }, 1000);
     };
 
-    window.addEventListener('rocketLaunch', handleRocketLaunch);
-    return () => window.removeEventListener('rocketLaunch', handleRocketLaunch);
+    window.addEventListener("rocketLaunch", handleRocketLaunch);
+    return () => window.removeEventListener("rocketLaunch", handleRocketLaunch);
   }, []);
 
   if (!mounted) return null;

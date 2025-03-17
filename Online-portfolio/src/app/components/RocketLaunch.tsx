@@ -14,8 +14,8 @@ export default function RocketLaunch() {
       setHeight(window.innerHeight);
     };
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -34,7 +34,7 @@ export default function RocketLaunch() {
         className="relative"
         onAnimationComplete={() => {
           // Trigger particle explosion when rocket reaches top
-          const event = new CustomEvent('rocketLaunch');
+          const event = new CustomEvent("rocketLaunch");
           window.dispatchEvent(event);
         }}
       >
