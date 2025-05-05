@@ -1,0 +1,71 @@
+// Colors
+$primary: #7c4dff;
+$secondary: #00e5ff;
+$dark-bg: #050815;
+$dark-accent: #080c15;
+$darker-bg: #03040c;
+$card-bg: rgba(8, 12, 21, 0.6);
+$border-color: rgba(124, 77, 255, 0.2);
+$highlight: #7c4dff;
+$secondary-highlight: #00e5ff;
+$link-color: #7c4dff;
+$shadow-color: rgba(124, 77, 255, 0.2);
+
+$text-color: #f8fafc;
+$muted-text: #94a3b8;
+$error-color: #ff4d4d;
+$success-color: #2ecc71;
+$warning-color: #ffa64d;
+
+$code-bg: #151f30;
+$code-text: #cbd5e1;
+$input-bg: rgba(5, 8, 15, 0.5);
+
+// Gradients
+$gradient-1: linear-gradient(to right, $primary, $secondary);
+$gradient-2: linear-gradient(to right, darken($primary, 10%), darken($secondary, 10%));
+
+// Spacing
+$spacing-xs: 5px;
+$spacing-sm: 10px;
+$spacing-md: 15px;
+$spacing-lg: 25px;
+$spacing-xl: 40px;
+$spacing-xxl: 60px;
+
+// Border radius
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 20px;
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Shadows
+$shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 5px 15px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.2);
+$glow-primary: 0 0 15px rgba($primary, 0.5);
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// Font weights
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+
+// Animation durations
+$duration-fast: 0.2s;
+$duration-normal: 0.3s;
+$duration-slow: 0.5s; 
